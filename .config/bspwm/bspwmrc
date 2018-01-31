@@ -2,7 +2,7 @@
 
 xrdb ~/.Xresources
 compton &
-polybar top &
+polybar main &
 feh --bg-fill --no-xinerama .wallpaper.png
 sxhkd &
 
