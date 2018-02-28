@@ -34,8 +34,8 @@ fi
 
 setxkbmap -option caps:escape
 
-xrandr --output DP-1 --left-of HDMI-0 
-xrandr --output DP-3 --right-of HDMI-0 
-xrandr --output DP-4 --right-of DP-3 --rotate left 
+xrandr --output DP-1 --left-of HDMI-1
+xrandr --output DP-2 --right-of HDMI-1
+xrandr --output DP-3 --right-of DP-2 --rotate left 
 
 exec bspwm
