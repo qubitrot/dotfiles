@@ -1,4 +1,4 @@
-#include "/home/keith/.colors/base16/base16-ocean.dark.xresources"
+#include "/home/keith/.colors/base16/xresources/base16-google-dark.Xresources"
 
 Xcursor.theme: OpenZone_Black
 
