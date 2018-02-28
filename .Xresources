@@ -1,0 +1,13 @@
+#include "/home/keith/.colors/base16/base16-ocean.dark.xresources"
+
+Xcursor.theme: OpenZone_Black
+
+!urxvt*depth: 32
+!urxvt*background: rgba:2222/2222/2222/FFFF
+urxvt*font: xft:mono:medium:size=11
+urxvt*lineSpace:1
+urxvt*intensityStyles: false
+urxvt*scrollBar: false
+urxvt*cursorBlink: true
+urxvt*cursorUnderline: true
+urxvt*internalBorder: 16
