@@ -1,6 +1,6 @@
 execute pathogen#infect()
 
-colorscheme base16-default-dark
+colorscheme base16-google-dark
 
 syntax on
 
