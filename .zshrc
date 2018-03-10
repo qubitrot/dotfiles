@@ -6,6 +6,9 @@ setopt HIST_IGNORE_DUPS
 unsetopt beep
 bindkey -v
 
+autoload -Uz compinit
+compinit
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
