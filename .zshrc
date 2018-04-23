@@ -1,13 +1,17 @@
+# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt autocd extendedglob
-setopt HIST_IGNORE_DUPS
-unsetopt beep
+setopt appendhistory autocd extendedglob nomatch
+unsetopt beep notify
 bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/keith/.zshrc'
 
 autoload -Uz compinit
 compinit
+# End of lines added by compinstall
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
