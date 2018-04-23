@@ -1,1 +1,5 @@
 Xcursor.theme: OpenZone_Black
+
+rofi.theme: Pop-Dark
+rofi.font: Fira Code 11
+rofi.modi: run,ssh,window
