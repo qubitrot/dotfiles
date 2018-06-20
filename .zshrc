@@ -19,8 +19,10 @@ compinit
 source /usr/bin/liquidprompt
 
 export PATH=$PATH:~/bin
+export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/opt/cuda/bin
 
 alias remake="make clean; make"
 alias pacman="sudo pacman"
-alias ls='ls --color=auto'
+alias ls="ls --color=auto"
+alias vim="nvim"

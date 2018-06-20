@@ -1,6 +1,6 @@
 execute pathogen#infect()
 
-"colorscheme base16-google-dark
+colorscheme base16-eighties
 
 syntax on
 
@@ -8,8 +8,8 @@ set mouse=a
 set wrap
 set number
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set ai
 set si
 "set foldmethod=syntax
